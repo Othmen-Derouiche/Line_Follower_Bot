@@ -1,0 +1,259 @@
+[1.861s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.861s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f1bf0d98130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f1bf0d9ae00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f1bf0d9ae00>>)
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.985s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.986s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.986s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/othmene/Line_Follower_Bot'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.009s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.010s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.011s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extension 'ignore'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extension 'ignore_ament_install'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extensions ['colcon_pkg']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extension 'colcon_pkg'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extensions ['colcon_meta']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extension 'colcon_meta'
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extensions ['ros']
+[2.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_bringup) by extension 'ros'
+[2.018s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linefollower_bringup' with type 'ros.ament_cmake' and name 'linefollower_bringup'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extensions ['ignore', 'ignore_ament_install']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extension 'ignore'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extension 'ignore_ament_install'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extensions ['colcon_pkg']
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extension 'colcon_pkg'
+[2.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extensions ['colcon_meta']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extension 'colcon_meta'
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extensions ['ros']
+[2.020s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_description) by extension 'ros'
+[2.021s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linefollower_description' with type 'ros.ament_cmake' and name 'linefollower_description'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extensions ['ignore', 'ignore_ament_install']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extension 'ignore'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extension 'ignore_ament_install'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extensions ['colcon_pkg']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extension 'colcon_pkg'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extensions ['colcon_meta']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extension 'colcon_meta'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extensions ['ros']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(src/linefollower_nodes) by extension 'ros'
+[2.023s] DEBUG:colcon.colcon_core.package_identification:Package 'src/linefollower_nodes' with type 'ros.ament_python' and name 'linefollower_nodes'
+[2.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.023s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.281s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/othmene/Line_Follower_Bot/install
+[2.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/othmene/Object_Detection_YOLOv8/install
+[2.332s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/othmene/ros2_ws_course3/install
+[2.377s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/othmene/ros2_ws_course2/install
+[2.401s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/othmene/ros2_ws/install
+[2.426s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[2.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.578s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'cmake_target' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.579s] Level 5:colcon.colcon_core.verb:set package 'linefollower_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.579s] DEBUG:colcon.colcon_core.verb:Building package 'linefollower_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/othmene/Line_Follower_Bot/build/linefollower_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/othmene/Line_Follower_Bot/install/linefollower_bringup', 'merge_install': False, 'path': '/home/othmene/Line_Follower_Bot/src/linefollower_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'cmake_target' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.603s] Level 5:colcon.colcon_core.verb:set package 'linefollower_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.603s] DEBUG:colcon.colcon_core.verb:Building package 'linefollower_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/othmene/Line_Follower_Bot/build/linefollower_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/othmene/Line_Follower_Bot/install/linefollower_description', 'merge_install': False, 'path': '/home/othmene/Line_Follower_Bot/src/linefollower_description', 'symlink_install': False, 'test_result_base': None}
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'cmake_args' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'cmake_target' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[2.629s] Level 5:colcon.colcon_core.verb:set package 'linefollower_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.629s] DEBUG:colcon.colcon_core.verb:Building package 'linefollower_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/othmene/Line_Follower_Bot/build/linefollower_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/othmene/Line_Follower_Bot/install/linefollower_nodes', 'merge_install': False, 'path': '/home/othmene/Line_Follower_Bot/src/linefollower_nodes', 'symlink_install': False, 'test_result_base': None}
+[2.651s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/othmene/Line_Follower_Bot/src/linefollower_bringup' with build type 'ament_cmake'
+[2.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/othmene/Line_Follower_Bot/src/linefollower_bringup'
+[2.710s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.906s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/othmene/Line_Follower_Bot/src/linefollower_description' with build type 'ament_cmake'
+[2.906s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/othmene/Line_Follower_Bot/src/linefollower_description'
+[2.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.128s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/othmene/Line_Follower_Bot/src/linefollower_nodes' with build type 'ament_python'
+[3.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefollower_nodes', 'ament_prefix_path')
+[3.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/hook/ament_prefix_path.ps1'
+[3.158s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/hook/ament_prefix_path.dsv'
+[3.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/hook/ament_prefix_path.sh'
+[3.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/othmene/Line_Follower_Bot/build/linefollower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/othmene/Line_Follower_Bot/src/linefollower_bringup -DCMAKE_INSTALL_PREFIX=/home/othmene/Line_Follower_Bot/install/linefollower_bringup
+[3.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/othmene/Line_Follower_Bot/build/linefollower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/othmene/Line_Follower_Bot/src/linefollower_description -DCMAKE_INSTALL_PREFIX=/home/othmene/Line_Follower_Bot/install/linefollower_description
+[3.900s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/othmene/Line_Follower_Bot/src/linefollower_nodes'
+[3.932s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.932s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/othmene/Line_Follower_Bot/build/linefollower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/othmene/Line_Follower_Bot/src/linefollower_description -DCMAKE_INSTALL_PREFIX=/home/othmene/Line_Follower_Bot/install/linefollower_description
+[4.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/othmene/Line_Follower_Bot/build/linefollower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Line_Follower_Bot/build/linefollower_description -- -j4 -l4
+[4.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/othmene/Line_Follower_Bot/build/linefollower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/othmene/Line_Follower_Bot/src/linefollower_bringup -DCMAKE_INSTALL_PREFIX=/home/othmene/Line_Follower_Bot/install/linefollower_bringup
+[4.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/othmene/Line_Follower_Bot/build/linefollower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Line_Follower_Bot/build/linefollower_bringup -- -j4 -l4
+[4.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/othmene/Line_Follower_Bot/src/linefollower_nodes': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/linefollower_nodes/prefix_override:/home/othmene/Line_Follower_Bot/install/linefollower_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/linefollower_nodes build --build-base /home/othmene/Line_Follower_Bot/build/linefollower_nodes/build install --record /home/othmene/Line_Follower_Bot/build/linefollower_nodes/install.log --single-version-externally-managed
+[5.030s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/othmene/Line_Follower_Bot/build/linefollower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Line_Follower_Bot/build/linefollower_description -- -j4 -l4
+[5.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/othmene/Line_Follower_Bot/build/linefollower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Line_Follower_Bot/build/linefollower_bringup -- -j4 -l4
+[5.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/othmene/Line_Follower_Bot/build/linefollower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Line_Follower_Bot/build/linefollower_description
+[5.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/othmene/Line_Follower_Bot/build/linefollower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Line_Follower_Bot/build/linefollower_bringup
+[5.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefollower_description)
+[5.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/othmene/Line_Follower_Bot/build/linefollower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Line_Follower_Bot/build/linefollower_description
+[5.186s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description' for CMake module files
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description' for CMake config files
+[5.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefollower_description', 'cmake_prefix_path')
+[5.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/hook/cmake_prefix_path.ps1'
+[5.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/hook/cmake_prefix_path.dsv'
+[5.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/hook/cmake_prefix_path.sh'
+[5.226s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/bin'
+[5.226s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/lib/pkgconfig/linefollower_description.pc'
+[5.227s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/lib/python3.10/site-packages'
+[5.227s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/bin'
+[5.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.ps1'
+[5.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.dsv'
+[5.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.sh'
+[5.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.bash'
+[5.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.zsh'
+[5.270s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/othmene/Line_Follower_Bot/install/linefollower_description/share/colcon-core/packages/linefollower_description)
+[5.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefollower_bringup)
+[5.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/othmene/Line_Follower_Bot/build/linefollower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Line_Follower_Bot/build/linefollower_bringup
+[5.305s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup' for CMake module files
+[5.305s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup' for CMake config files
+[5.306s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefollower_bringup', 'cmake_prefix_path')
+[5.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/hook/cmake_prefix_path.ps1'
+[5.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/hook/cmake_prefix_path.dsv'
+[5.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/hook/cmake_prefix_path.sh'
+[5.339s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/bin'
+[5.339s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/lib/pkgconfig/linefollower_bringup.pc'
+[5.340s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/lib/python3.10/site-packages'
+[5.340s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/bin'
+[5.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.ps1'
+[5.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.dsv'
+[5.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.sh'
+[5.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.bash'
+[5.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.zsh'
+[5.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/colcon-core/packages/linefollower_bringup)
+[5.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefollower_description)
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description' for CMake module files
+[5.465s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description' for CMake config files
+[5.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefollower_description', 'cmake_prefix_path')
+[5.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/hook/cmake_prefix_path.ps1'
+[5.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/hook/cmake_prefix_path.dsv'
+[5.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/hook/cmake_prefix_path.sh'
+[5.501s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/bin'
+[5.501s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/lib/pkgconfig/linefollower_description.pc'
+[5.502s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/lib/python3.10/site-packages'
+[5.503s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_description/bin'
+[5.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.ps1'
+[5.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.dsv'
+[5.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.sh'
+[5.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.bash'
+[5.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.zsh'
+[5.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/othmene/Line_Follower_Bot/install/linefollower_description/share/colcon-core/packages/linefollower_description)
+[5.597s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefollower_bringup)
+[5.628s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup' for CMake module files
+[5.629s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup' for CMake config files
+[5.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefollower_bringup', 'cmake_prefix_path')
+[5.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/hook/cmake_prefix_path.ps1'
+[5.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/hook/cmake_prefix_path.dsv'
+[5.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/hook/cmake_prefix_path.sh'
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/bin'
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/lib/pkgconfig/linefollower_bringup.pc'
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/lib/python3.10/site-packages'
+[5.655s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/bin'
+[5.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.ps1'
+[5.676s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.dsv'
+[5.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.sh'
+[5.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.bash'
+[5.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/linefollower_bringup/package.zsh'
+[5.680s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/othmene/Line_Follower_Bot/install/linefollower_bringup/share/colcon-core/packages/linefollower_bringup)
+[5.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/othmene/Line_Follower_Bot/src/linefollower_nodes' returned '0': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/linefollower_nodes/prefix_override:/home/othmene/Line_Follower_Bot/install/linefollower_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/linefollower_nodes build --build-base /home/othmene/Line_Follower_Bot/build/linefollower_nodes/build install --record /home/othmene/Line_Follower_Bot/build/linefollower_nodes/install.log --single-version-externally-managed
+[5.709s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_nodes' for CMake module files
+[5.710s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_nodes' for CMake config files
+[5.712s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/lib'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/bin'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/lib/pkgconfig/linefollower_nodes.pc'
+[5.713s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/lib/python3.10/site-packages'
+[5.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('linefollower_nodes', 'pythonpath')
+[5.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/hook/pythonpath.ps1'
+[5.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/hook/pythonpath.dsv'
+[5.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/hook/pythonpath.sh'
+[5.744s] Level 1:colcon.colcon_core.environment:checking '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/bin'
+[5.744s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(linefollower_nodes)
+[5.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/package.ps1'
+[5.773s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/package.dsv'
+[5.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/package.sh'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/package.bash'
+[5.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/linefollower_nodes/package.zsh'
+[5.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/othmene/Line_Follower_Bot/install/linefollower_nodes/share/colcon-core/packages/linefollower_nodes)
+[5.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.776s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.776s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.829s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.829s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.829s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.854s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/othmene/Line_Follower_Bot/install/local_setup.ps1'
+[5.886s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/othmene/Line_Follower_Bot/install/_local_setup_util_ps1.py'
+[5.889s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/othmene/Line_Follower_Bot/install/setup.ps1'
+[5.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/othmene/Line_Follower_Bot/install/local_setup.sh'
+[5.923s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/othmene/Line_Follower_Bot/install/_local_setup_util_sh.py'
+[5.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/othmene/Line_Follower_Bot/install/setup.sh'
+[5.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/othmene/Line_Follower_Bot/install/local_setup.bash'
+[5.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/othmene/Line_Follower_Bot/install/setup.bash'
+[5.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/othmene/Line_Follower_Bot/install/local_setup.zsh'
+[5.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/othmene/Line_Follower_Bot/install/setup.zsh'

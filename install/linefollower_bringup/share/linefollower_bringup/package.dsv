@@ -1,0 +1,8 @@
+source;share/linefollower_bringup/hook/cmake_prefix_path.ps1
+source;share/linefollower_bringup/hook/cmake_prefix_path.dsv
+source;share/linefollower_bringup/hook/cmake_prefix_path.sh
+source;share/linefollower_bringup/local_setup.bash
+source;share/linefollower_bringup/local_setup.dsv
+source;share/linefollower_bringup/local_setup.ps1
+source;share/linefollower_bringup/local_setup.sh
+source;share/linefollower_bringup/local_setup.zsh

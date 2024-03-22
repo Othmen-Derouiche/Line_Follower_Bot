@@ -1,0 +1,33 @@
+[2.088s] Invoking command in '/home/othmene/Line_Follower_Bot/src/linefollower_nodes': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/LineFollower_nodes/prefix_override:/home/othmene/Line_Follower_Bot/install/LineFollower_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/LineFollower_nodes build --build-base /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/build install --record /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/install.log --single-version-externally-managed
+[2.526s] running egg_info
+[2.527s] creating ../../build/LineFollower_nodes/LineFollower_nodes.egg-info
+[2.527s] writing ../../build/LineFollower_nodes/LineFollower_nodes.egg-info/PKG-INFO
+[2.527s] writing dependency_links to ../../build/LineFollower_nodes/LineFollower_nodes.egg-info/dependency_links.txt
+[2.527s] writing entry points to ../../build/LineFollower_nodes/LineFollower_nodes.egg-info/entry_points.txt
+[2.528s] writing requirements to ../../build/LineFollower_nodes/LineFollower_nodes.egg-info/requires.txt
+[2.528s] writing top-level names to ../../build/LineFollower_nodes/LineFollower_nodes.egg-info/top_level.txt
+[2.528s] writing manifest file '../../build/LineFollower_nodes/LineFollower_nodes.egg-info/SOURCES.txt'
+[2.531s] reading manifest file '../../build/LineFollower_nodes/LineFollower_nodes.egg-info/SOURCES.txt'
+[2.533s] writing manifest file '../../build/LineFollower_nodes/LineFollower_nodes.egg-info/SOURCES.txt'
+[2.533s] running build
+[2.533s] running build_py
+[2.533s] creating /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/build
+[2.534s] creating /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/build/lib
+[2.534s] creating /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/build/lib/LineFollower_nodes
+[2.535s] copying LineFollower_nodes/__init__.py -> /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/build/lib/LineFollower_nodes
+[2.535s] running install
+[2.535s] running install_lib
+[2.536s] creating /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/lib/python3.10/site-packages/LineFollower_nodes
+[2.536s] copying /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/build/lib/LineFollower_nodes/__init__.py -> /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/lib/python3.10/site-packages/LineFollower_nodes
+[2.539s] byte-compiling /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/lib/python3.10/site-packages/LineFollower_nodes/__init__.py to __init__.cpython-310.pyc
+[2.539s] running install_data
+[2.539s] creating /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/share/ament_index
+[2.539s] creating /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/share/ament_index/resource_index
+[2.540s] creating /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/share/ament_index/resource_index/packages
+[2.540s] copying resource/LineFollower_nodes -> /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/share/ament_index/resource_index/packages
+[2.540s] copying package.xml -> /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/share/LineFollower_nodes
+[2.540s] running install_egg_info
+[2.543s] Copying ../../build/LineFollower_nodes/LineFollower_nodes.egg-info to /home/othmene/Line_Follower_Bot/install/LineFollower_nodes/lib/python3.10/site-packages/LineFollower_nodes-0.0.0-py3.10.egg-info
+[2.544s] running install_scripts
+[2.581s] writing list of installed files to '/home/othmene/Line_Follower_Bot/build/LineFollower_nodes/install.log'
+[2.748s] Invoked command in '/home/othmene/Line_Follower_Bot/src/linefollower_nodes' returned '0': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/LineFollower_nodes/prefix_override:/home/othmene/Line_Follower_Bot/install/LineFollower_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/LineFollower_nodes build --build-base /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/build install --record /home/othmene/Line_Follower_Bot/build/LineFollower_nodes/install.log --single-version-externally-managed

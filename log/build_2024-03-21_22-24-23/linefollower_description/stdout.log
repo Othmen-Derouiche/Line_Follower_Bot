@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/othmene/Line_Follower_Bot/build/linefollower_description
+-- Install configuration: ""
+-- Up-to-date: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description//urdf
+-- Up-to-date: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description//launch
+-- Up-to-date: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description//rviz
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/ament_index/resource_index/package_run_dependencies/linefollower_description
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/ament_index/resource_index/parent_prefix_path/linefollower_description
+-- Up-to-date: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/environment/ament_prefix_path.sh
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/environment/path.sh
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/environment/path.dsv
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/local_setup.bash
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/local_setup.sh
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/local_setup.zsh
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/local_setup.dsv
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.dsv
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/ament_index/resource_index/packages/linefollower_description
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/cmake/linefollower_descriptionConfig.cmake
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/cmake/linefollower_descriptionConfig-version.cmake
+-- Installing: /home/othmene/Line_Follower_Bot/install/linefollower_description/share/linefollower_description/package.xml

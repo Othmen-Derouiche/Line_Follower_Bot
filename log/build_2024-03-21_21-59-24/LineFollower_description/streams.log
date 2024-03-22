@@ -1,0 +1,43 @@
+[0.489s] Invoking command in '/home/othmene/Line_Follower_Bot/build/LineFollower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/othmene/Line_Follower_Bot/src/linefollower_description -DCMAKE_INSTALL_PREFIX=/home/othmene/Line_Follower_Bot/install/LineFollower_description
+[0.737s] -- The C compiler identification is GNU 11.4.0
+[0.916s] -- The CXX compiler identification is GNU 11.4.0
+[0.955s] -- Detecting C compiler ABI info
+[1.236s] -- Detecting C compiler ABI info - done
+[1.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.241s] -- Detecting C compile features
+[1.242s] -- Detecting C compile features - done
+[1.246s] -- Detecting CXX compiler ABI info
+[1.434s] -- Detecting CXX compiler ABI info - done
+[1.445s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.446s] -- Detecting CXX compile features
+[1.448s] -- Detecting CXX compile features - done
+[1.471s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.890s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.255s] WARNING: Package name "LineFollower_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.290s] -- Configuring done
+[2.290s] -- Generating done
+[2.292s] -- Build files have been written to: /home/othmene/Line_Follower_Bot/build/LineFollower_description
+[2.304s] Invoked command in '/home/othmene/Line_Follower_Bot/build/LineFollower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/othmene/Line_Follower_Bot/src/linefollower_description -DCMAKE_INSTALL_PREFIX=/home/othmene/Line_Follower_Bot/install/LineFollower_description
+[2.307s] Invoking command in '/home/othmene/Line_Follower_Bot/build/LineFollower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Line_Follower_Bot/build/LineFollower_description -- -j4 -l4
+[2.384s] Invoked command in '/home/othmene/Line_Follower_Bot/build/LineFollower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/othmene/Line_Follower_Bot/build/LineFollower_description -- -j4 -l4
+[2.456s] Invoking command in '/home/othmene/Line_Follower_Bot/build/LineFollower_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Line_Follower_Bot/build/LineFollower_description
+[2.470s] -- Install configuration: ""
+[2.470s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description//urdf
+[2.470s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description//launch
+[2.471s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description//rviz
+[2.471s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/ament_index/resource_index/package_run_dependencies/LineFollower_description
+[2.472s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/ament_index/resource_index/parent_prefix_path/LineFollower_description
+[2.472s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/environment/ament_prefix_path.sh
+[2.472s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/environment/ament_prefix_path.dsv
+[2.473s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/environment/path.sh
+[2.473s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/environment/path.dsv
+[2.473s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/local_setup.bash
+[2.474s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/local_setup.sh
+[2.474s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/local_setup.zsh
+[2.475s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/local_setup.dsv
+[2.475s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/package.dsv
+[2.475s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/ament_index/resource_index/packages/LineFollower_description
+[2.476s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/cmake/LineFollower_descriptionConfig.cmake
+[2.476s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/cmake/LineFollower_descriptionConfig-version.cmake
+[2.477s] -- Installing: /home/othmene/Line_Follower_Bot/install/LineFollower_description/share/LineFollower_description/package.xml
+[2.482s] Invoked command in '/home/othmene/Line_Follower_Bot/build/LineFollower_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/othmene/ros2_ws_course3/install/assignment:/home/othmene/ros2_ws_course3/install/actions_py:/home/othmene/ros2_ws_course3/install/lifecycle_py:/home/othmene/ros2_ws_course3/install/executors_py:/home/othmene/ros2_ws_course3/install/components_py:/home/othmene/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/othmene/Line_Follower_Bot/build/LineFollower_description
