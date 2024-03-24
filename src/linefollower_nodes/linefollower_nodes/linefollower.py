@@ -21,13 +21,21 @@ import cv2
 import numpy as np 
 import cv_bridge
 """--------------------------------------------------------------------------------"""
+# BGR values to filter only the selected color range
+
+global lower_bgr_values
+global upper_bgr_values
+global crop_h_start, crop_h_stop, crop_w_start, crop_w_stop 
 class LineFollowerNode(Node): 
     def __init__(self):
         super().__init__("line_follower") 
 
+        lower_bgr_values = np.array([31,  42,  53])
+        upper_bgr_values = np.array([255, 255, 255])
+        
         self.timer_frequency = 1.0 / 0.06
         self.image_input = 0 
-        
+    
         # Minimum size for a contour to be considered anything
         self.minArea = 500 
         # Minimum size for a contour to be considered part of the track
@@ -102,7 +110,19 @@ class LineFollowerNode(Node):
             if M['m00'] > self.minArea :
                 if ['m00'] > self.minAreaTrack:
                     # coutour is part of the track 
-                    line['x'] = 
+                    line['x'] = crop_w_start + int(M['m10']/M['m00'])
+                    line['y'] = int(M['m01']/M['m00'])
+
+                    # plot the area in light blue
+                    cv2.drawContours(out,contour,-1 , (255,255,0) , -1)
+                    cv2.putText(out,str(M['M00']) , int(M['m10']/M['m00']) , int(M['m01']/M['m00']) , 
+                                cv2.FONT_HERSHEY_PLAIN , 2 , (255,0,255) , 2)
+
+        if mark and line : 
+            # if both contours exist 
+            if mark['x'] > line['x']            
+
+
         pass
     """--------------------------------------------------------------------------------"""
     def start_follower_callback(self):

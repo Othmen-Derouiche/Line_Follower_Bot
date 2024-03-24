@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/pkg_test/pkg_test.egg-info
+writing ../../build/pkg_test/pkg_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg_test/pkg_test.egg-info/dependency_links.txt
+writing entry points to ../../build/pkg_test/pkg_test.egg-info/entry_points.txt
+writing requirements to ../../build/pkg_test/pkg_test.egg-info/requires.txt
+writing top-level names to ../../build/pkg_test/pkg_test.egg-info/top_level.txt
+writing manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/othmene/Line_Follower_Bot/build/pkg_test/build
+creating /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib
+creating /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+copying pkg_test/__init__.py -> /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+copying pkg_test/test_subscriber.py -> /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+copying pkg_test/test_publisher.py -> /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+running install
+running install_lib
+creating /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+copying /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test/__init__.py -> /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+copying /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test/test_subscriber.py -> /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+copying /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test/test_publisher.py -> /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+byte-compiling /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test/test_subscriber.py to test_subscriber.cpython-310.pyc
+byte-compiling /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test/test_publisher.py to test_publisher.cpython-310.pyc
+running install_data
+creating /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index
+creating /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index/resource_index
+creating /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index/resource_index/packages
+copying resource/pkg_test -> /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index/resource_index/packages
+copying package.xml -> /home/othmene/Line_Follower_Bot/install/pkg_test/share/pkg_test
+running install_egg_info
+Copying ../../build/pkg_test/pkg_test.egg-info to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_publisher script to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/pkg_test
+Installing test_subscriber script to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/pkg_test
+writing list of installed files to '/home/othmene/Line_Follower_Bot/build/pkg_test/install.log'

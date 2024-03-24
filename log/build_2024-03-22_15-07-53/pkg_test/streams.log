@@ -1,0 +1,22 @@
+[1.523s] Invoking command in '/home/othmene/Line_Follower_Bot/src/pkg_test': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/pkg_test/prefix_override:/home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_test build --build-base /home/othmene/Line_Follower_Bot/build/pkg_test/build install --record /home/othmene/Line_Follower_Bot/build/pkg_test/install.log --single-version-externally-managed
+[1.909s] running egg_info
+[1.910s] writing ../../build/pkg_test/pkg_test.egg-info/PKG-INFO
+[1.910s] writing dependency_links to ../../build/pkg_test/pkg_test.egg-info/dependency_links.txt
+[1.911s] writing entry points to ../../build/pkg_test/pkg_test.egg-info/entry_points.txt
+[1.911s] writing requirements to ../../build/pkg_test/pkg_test.egg-info/requires.txt
+[1.912s] writing top-level names to ../../build/pkg_test/pkg_test.egg-info/top_level.txt
+[1.914s] reading manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+[1.916s] writing manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+[1.916s] running build
+[1.916s] running build_py
+[1.916s] running install
+[1.917s] running install_lib
+[1.919s] running install_data
+[1.920s] running install_egg_info
+[1.923s] removing '/home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test-0.0.0-py3.10.egg-info' (and everything under it)
+[1.923s] Copying ../../build/pkg_test/pkg_test.egg-info to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test-0.0.0-py3.10.egg-info
+[1.924s] running install_scripts
+[1.955s] Installing test_publisher script to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/pkg_test
+[1.955s] Installing test_subscriber script to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/pkg_test
+[1.956s] writing list of installed files to '/home/othmene/Line_Follower_Bot/build/pkg_test/install.log'
+[2.012s] Invoked command in '/home/othmene/Line_Follower_Bot/src/pkg_test' returned '0': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/pkg_test/prefix_override:/home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_test build --build-base /home/othmene/Line_Follower_Bot/build/pkg_test/build install --record /home/othmene/Line_Follower_Bot/build/pkg_test/install.log --single-version-externally-managed

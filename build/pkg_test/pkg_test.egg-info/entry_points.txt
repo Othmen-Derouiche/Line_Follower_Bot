@@ -1,0 +1,4 @@
+[console_scripts]
+test_publisher = pkg_test.test_publisher:main
+test_subscriber = pkg_test.test_subscriber:main
+

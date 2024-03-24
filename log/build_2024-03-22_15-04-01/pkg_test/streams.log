@@ -1,0 +1,41 @@
+[1.476s] Invoking command in '/home/othmene/Line_Follower_Bot/src/pkg_test': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/pkg_test/prefix_override:/home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_test build --build-base /home/othmene/Line_Follower_Bot/build/pkg_test/build install --record /home/othmene/Line_Follower_Bot/build/pkg_test/install.log --single-version-externally-managed
+[1.859s] running egg_info
+[1.860s] creating ../../build/pkg_test/pkg_test.egg-info
+[1.862s] writing ../../build/pkg_test/pkg_test.egg-info/PKG-INFO
+[1.863s] writing dependency_links to ../../build/pkg_test/pkg_test.egg-info/dependency_links.txt
+[1.863s] writing entry points to ../../build/pkg_test/pkg_test.egg-info/entry_points.txt
+[1.864s] writing requirements to ../../build/pkg_test/pkg_test.egg-info/requires.txt
+[1.864s] writing top-level names to ../../build/pkg_test/pkg_test.egg-info/top_level.txt
+[1.864s] writing manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+[1.867s] reading manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+[1.869s] writing manifest file '../../build/pkg_test/pkg_test.egg-info/SOURCES.txt'
+[1.869s] running build
+[1.869s] running build_py
+[1.870s] creating /home/othmene/Line_Follower_Bot/build/pkg_test/build
+[1.870s] creating /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib
+[1.871s] creating /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+[1.871s] copying pkg_test/__init__.py -> /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+[1.871s] copying pkg_test/test_subscriber.py -> /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+[1.871s] copying pkg_test/test_publisher.py -> /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test
+[1.871s] running install
+[1.872s] running install_lib
+[1.873s] creating /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+[1.873s] copying /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test/__init__.py -> /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+[1.874s] copying /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test/test_subscriber.py -> /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+[1.874s] copying /home/othmene/Line_Follower_Bot/build/pkg_test/build/lib/pkg_test/test_publisher.py -> /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test
+[1.875s] byte-compiling /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test/__init__.py to __init__.cpython-310.pyc
+[1.875s] byte-compiling /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test/test_subscriber.py to test_subscriber.cpython-310.pyc
+[1.876s] byte-compiling /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test/test_publisher.py to test_publisher.cpython-310.pyc
+[1.876s] running install_data
+[1.877s] creating /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index
+[1.877s] creating /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index/resource_index
+[1.878s] creating /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index/resource_index/packages
+[1.878s] copying resource/pkg_test -> /home/othmene/Line_Follower_Bot/install/pkg_test/share/ament_index/resource_index/packages
+[1.878s] copying package.xml -> /home/othmene/Line_Follower_Bot/install/pkg_test/share/pkg_test
+[1.878s] running install_egg_info
+[1.880s] Copying ../../build/pkg_test/pkg_test.egg-info to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages/pkg_test-0.0.0-py3.10.egg-info
+[1.882s] running install_scripts
+[1.909s] Installing test_publisher script to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/pkg_test
+[1.910s] Installing test_subscriber script to /home/othmene/Line_Follower_Bot/install/pkg_test/lib/pkg_test
+[1.910s] writing list of installed files to '/home/othmene/Line_Follower_Bot/build/pkg_test/install.log'
+[1.963s] Invoked command in '/home/othmene/Line_Follower_Bot/src/pkg_test' returned '0': PYTHONPATH=/home/othmene/Line_Follower_Bot/build/pkg_test/prefix_override:/home/othmene/Line_Follower_Bot/install/pkg_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pkg_test build --build-base /home/othmene/Line_Follower_Bot/build/pkg_test/build install --record /home/othmene/Line_Follower_Bot/build/pkg_test/install.log --single-version-externally-managed
